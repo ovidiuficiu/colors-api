@@ -91,6 +91,7 @@ function colorMadnessButton() {
         let index = 0;
         var timer = setInterval(function() {
             document.body.style.backgroundColor = colors[index++];
+            if (index > colors.length) index = 0;
         }, 300);
     });
 }
