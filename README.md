@@ -13,7 +13,7 @@ The codebase is split into two main directories api and frontend. The names are 
 The frontend directory hosts a index.html and index.js file. Cors headers have been added to the PHP application so that it will allow localhost requests.
 
 # Requirements
-* PHP CLI 7.4
+* PHP 7.4
 * Any browser
 
 # Issues or questions
